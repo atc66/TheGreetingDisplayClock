@@ -28,10 +28,13 @@ if (h>=12 && h<=17){
 	// image.backgroundImage=
 } else if (h>=17 && h<=20){
 	greet.innerHTML="GOOD EVENING!"
+	Afterimage.style.backgroundImage = "url('img/evening.jpg')";
 } else if (h>=20 && h<=6){
 	greet.innerHTML="GOOD NIGHT!"
+	Afterimage.style.backgroundImage = "url('img/night.jpg')";
 } else {
 	greet.innerHTML="GOOD MORNING!"
+	Afterimage.style.backgroundImage = "url('img/morning.webp')";
 }
 
 setTimeout(displayClock, 1000);
