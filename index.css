@@ -1,0 +1,18 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ html, body {
+ 	height: 100%;
+ }
+
+#hex {
+	color: white;
+	font-family:  "Times New Roman", Georgia, Serif;
+	font-size: 50px;
+	position: relative;
+	top: 50%; 
+	text-align: center;
+}
+
