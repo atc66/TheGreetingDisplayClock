@@ -16,12 +16,9 @@ var Afterimage = document.getElementById('afternoonImg')
 		s = '0'+s;
 	}	
 
+hex.innerHTML = h + ':' + m + ':' + s;
 
-
-
-hex.innerHTML = h + ':' + m + ':' +s;
-
-if (h>=12 && h<=17){
+if (h>=12 && h<=16){
 	greet.innerHTML="GOOD AFTERNOON!"
 	Afterimage.style.backgroundImage = "url('img/afternoon.jpg')";
 } else if (h>=17 && h<=20){
