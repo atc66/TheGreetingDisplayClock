@@ -6,7 +6,7 @@ var h = d.getHours();
 var m = d.getMinutes();
 var s = d.getSeconds();
 var greet = document.getElementById('greeting')
-var image = document.getElementsByClassName('image')
+var Afterimage = document.getElementById('afternoonImg')
 
 	if (h<=9){
 		h = '0'+h;
@@ -17,12 +17,13 @@ var image = document.getElementsByClassName('image')
 	}	
 	var color = '#'+h+m+s;
 
-document.body.style.background = color;
+// document.body.style.background = color;
 
 hex.innerHTML = h + ':' + m + ':' +s;
 
 if (h>=12 && h<=17){
 	greet.innerHTML="GOOD AFTERNOON!"
+	Afterimage.style.backgroundImage = "url('img/afternoon.jpg')";
 	// document.body.style.backgroundImage = "/img/afternoon.jpg";
 	// image.backgroundImage=
 } else if (h>=17 && h<=20){
