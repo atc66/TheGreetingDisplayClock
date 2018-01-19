@@ -15,17 +15,15 @@ var Afterimage = document.getElementById('afternoonImg')
 	} if (s<=9) {
 		s = '0'+s;
 	}	
-	var color = '#'+h+m+s;
 
-// document.body.style.background = color;
+
+
 
 hex.innerHTML = h + ':' + m + ':' +s;
 
 if (h>=12 && h<=17){
 	greet.innerHTML="GOOD AFTERNOON!"
 	Afterimage.style.backgroundImage = "url('img/afternoon.jpg')";
-	// document.body.style.backgroundImage = "/img/afternoon.jpg";
-	// image.backgroundImage=
 } else if (h>=17 && h<=20){
 	greet.innerHTML="GOOD EVENING!"
 	Afterimage.style.backgroundImage = "url('img/evening.jpg')";
