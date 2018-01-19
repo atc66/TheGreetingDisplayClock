@@ -16,3 +16,15 @@
 	text-align: center;
 }
 
+#greeting{
+	color: white;
+	font-family:  "Times New Roman", Georgia, Serif;
+	font-size: 40px;
+	position: relative;
+	top: 60%; 
+	text-align: center;
+}
+
+.image {
+	display: none;
+}
