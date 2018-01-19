@@ -16,7 +16,7 @@ var s = d.getSeconds();
 
 document.body.style.background = color;
 
-document.getElementById("hex").innerHTML = color;
+document.getElementById("hex").innerHTML = h + ':' + m + ':' +s;
 
 setTimeout(displayClock, 1000);
 }
