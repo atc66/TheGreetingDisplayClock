@@ -24,7 +24,7 @@ if (h>=12 && h<=16){
 } else if (h>=17 && h<=20){
 	greet.innerHTML="GOOD EVENING!"
 	Afterimage.style.backgroundImage = "url('img/evening.jpg')";
-} else if (h>=20 && h<=6){
+} else if (h>=20 || h<=6){
 	greet.innerHTML="GOOD NIGHT!"
 	Afterimage.style.backgroundImage = "url('img/night.jpg')";
 } else {
